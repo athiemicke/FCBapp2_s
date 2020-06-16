@@ -1,0 +1,14 @@
+Package: FCBapp2
+Title: Debarcoding of FCB data (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alexander",
+           family = "Thiemicke",
+           role = c("aut", "cre"),
+           email = "athiemicke@gmail.com",
+           comment = c(ORCID = "0000-0002-9822-1017"))
+Description: This package enables users to debarcode and analyze their flow cytometry data. The app provides a graphical user interface through which users can upload .fsc file data. Within the app the user can set parameters to determine the debarcoded populations. The users then can see the result graphically visualized in the app. The debar coded data can then be downloaded as a .csv file. 
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
